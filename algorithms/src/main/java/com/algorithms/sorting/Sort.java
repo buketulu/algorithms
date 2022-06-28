@@ -9,7 +9,8 @@ public class Sort {
 	}
 	public static void main(String[] args) {
 		int[] arr= {1,2,2,2,2, 1, 1, 1, 1 };
-		InsertionSort.insertionSort(arr);
+		//InsertionSort.insertionSort(arr);
+		SelectionSort.selectionSort(arr);
 		printSortedArr(arr);
 		return;
 		
